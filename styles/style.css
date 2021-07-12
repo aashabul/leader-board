@@ -21,8 +21,11 @@ main{
     width: 870px;
     padding: 0 30px 30px 30px;
     margin-top: 21px;
-    margin-bottom: 20px;
     border-radius: 5px;
+}
+
+.container:last-child{
+    margin-bottom: 30px;
 }
 
 /* -------------------
