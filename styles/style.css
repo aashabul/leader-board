@@ -1,15 +1,31 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+/* -------------------
+    header style start
+---------------------*/
 header{
     background-color: #562EF7;
     display: flex;
@@ -45,3 +61,39 @@ nav{
     color: white;
     font-size: 16px;
 }
+/* -------------------
+    header style ends
+---------------------*/
+
+/* ----------------------
+    main section starts
+------------------------*/
+
+/* top-players section */
+
+.section-title{
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 41px 0;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+    margin-left: 16px;
+}
+
