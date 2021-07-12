@@ -1,97 +1,47 @@
-:root{
-    --body-color: #F3F1FF;
-    --title-color: #562EFF;
-    --container-color: #FFFFFF;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 *{
     margin: 0;
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
-    background-color: var(--body-color);
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
 }
 
-main{
+header{
+    background-color: #562EF7;
+    display: flex;
     justify-content: center;
-    display: flex;
+    height: 94px;
 }
 
-.title-color{
-    color: var(--title-color);
-    margin: 40px 0 40px 30px;
-    font-size: 24px;
-}
-
-.players{
+nav{
     display: flex;
-    flex-direction: column;
-    height: 679px;
+    justify-content: space-between;
     width: 870px;
-    background-color: var(--container-color);
 }
 
-.players-info{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 30px;
-    column-gap: 48px;
+.icon img{
+    width: 40px;
+    height: 51px;
 }
 
-.player{
+.logo-area{
     display: flex;
     align-items: center;
-    gap: 16px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
-
-.player-image img{
-    height: 56px;
-    width: 56px;
-}
-hr{
-    color: #D1D1D1;
-    width: 90%;
-    margin: auto;
-}
-
-
-.blog-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin: 0 30px;
-}
-
-.blog-image img{
-    height: 117px;
-    width: 177px;
-}
-
-.blog-title{
-    /* height: 68px; */
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-.blog-author{
-    /* height: 24px; */
-    font-size: 16px;
-}
-
-.blog{
-    display: flex;
     column-gap: 16px;
 }
 
-.blog a{
+.menu-area{
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+}
+
+.menu-area a{
     text-decoration: none;
-    color: var(--title-color);
-    margin-left: 10px;
+    color: white;
+    font-size: 16px;
 }
