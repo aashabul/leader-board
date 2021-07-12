@@ -177,6 +177,10 @@ hr{
     margin: 19.23px 0 7.17px 0;
 }
 
+.course-author{
+    color: #ED6B4F;
+}
+
 .course-info{
     margin: 19.2px 0 0;
     display: flex;
