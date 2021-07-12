@@ -25,7 +25,7 @@ main{
 }
 
 .container:last-child{
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 /* -------------------
@@ -163,7 +163,7 @@ hr{
 }
 
 .course .course-banner img{
-    width: 224px;
+    width: 239px;
     height: 104px;
 }
 
