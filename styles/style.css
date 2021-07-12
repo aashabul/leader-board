@@ -1,15 +1,13 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-    margin: 0;
-    padding: 0;
 }
 
 main{
@@ -81,6 +79,8 @@ nav{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 29px;
+    column-gap: 84px;
 }
 
 .player{
