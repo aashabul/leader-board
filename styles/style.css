@@ -213,81 +213,37 @@ hr{
     font-size: 14.6913px;
 }
 
-@media screen and (max-width: 768px){
+/* -----------------------------
+    media query 
+------------------------------*/
 
-    .container,header{
-        height: auto;
-        width: auto;
+@media screen and (max-width: 420px){
+    header{
+        align-items: center;
     }
-    .players{
+
+    .menu-area {
+        column-gap: 16px;
+    }
+
+    .container{
+        width: auto;
+        padding:0;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .blogs {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .player{
+    .courses {
         flex-direction: column;
     }
-
-    .section-title{
-        text-align: center;
-    }
-
-    .blogs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .courses{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav{
-        justify-content: center;
-        column-gap: 15px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-
-    .container, header{
-        height: auto;
-        width: auto;
-    }
-
-    .top-players{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .players{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0;
-    }
-
-    .player{
-        flex-direction: column;
-    }
-
-    .section-title{
-        text-align: center;
-    }
-
-    .blogs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .courses{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav{
-        justify-content: center;
-        column-gap: 15px;
-    }
-}
-
