@@ -231,6 +231,10 @@ hr{
         padding:0;
     }
 
+    .section-title{
+        text-align: center;
+    }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 10px;
@@ -242,6 +246,17 @@ hr{
 
     .blogs {
         grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 15px;
+    }
+
+    .blog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-info {
+        margin-top: 10px;
+        width: 308px;
     }
 
     .courses {
