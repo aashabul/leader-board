@@ -212,3 +212,71 @@ hr{
     font-weight: 600;
     font-size: 14.6913px;
 }
+
+@media screen and (max-width: 768px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player{
+        flex-direction: column;
+    }
+
+    .section-title{
+        text-align: center;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        justify-content: center;
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .top-players{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+    }
+
+    .player{
+        flex-direction: column;
+    }
+
+    .section-title{
+        text-align: center;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav{
+        justify-content: center;
+        column-gap: 15px;
+    }
+}
