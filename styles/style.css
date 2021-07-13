@@ -245,6 +245,10 @@ hr{
         row-gap: 15px;
     }
 
+    .player-name{
+        margin:0;
+    }
+
     .blogs {
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 15px;
