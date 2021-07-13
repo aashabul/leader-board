@@ -242,6 +242,7 @@ hr{
 
     .player {
         flex-direction: column;
+        row-gap: 15px;
     }
 
     .blogs {
